@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>De Vries en Van Weel Bouwcombinatie - de Vries en van Weel</title>
+<!-- TemplateEndEditable -->
+<link href="../css/css-reset.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet"> 
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<link href="../css/opmaak.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body id="top">
+<div id="container"><!-- TemplateBeginEditable name="Header" -->
+  <header class="group"> <a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep FC.png" width="568" height="120" alt="logo de vries en van weel"/></a>
+    <div class="topnav"> <a class="active" href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projecten</button>
+        <div class="dropdown-content"> <a href="../zakelijk/zakelijk-werkwijze.html">Zakelijk</a> <a href="../particulier/particulier-werkwijze.html">Particulier</a> </div>
+      </div>
+      <!--<div class="dropdown">
+          <button class="dropbtn">Particulier</button>
+          <div class="dropdown-content">
+            <a href="#">Werkwijze</a>  
+            <a href="#">Project voorbeelden</a>
+          </div>
+        </div> button uit-->
+      <a href="#about">Over ons</a> <a href="../contact/contact.html">Contact</a> </div>
+  </header>
+  <!--einde header-->
+<!-- TemplateEndEditable --><!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="../img/carousel1.jpg" alt="bouwtekening 1" style="width:100%">
+  </div>
+	
+  <div class="mySlides fade">
+       <img src="../img/carousel2.jpg" alt="bouwtekeing 2" style="width:100%">
+   </div>
+
+  <div class="mySlides fade">
+       <img src="../img/carousel3.jpg" alt="bouwtekeing 3" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<!-- TemplateBeginEditable name="Slideshow" --><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Main" -->
+<main class="content">
+  <!-- start content -->
+ 
+  <!-- einde article -->
+  <div class="card-container flex-box">
+      <a href="zakelijk/zakelijk-werkwijze.html"><!--begin card zakelijk-->
+		<div class="card image-zakelijk">
+          <h2 class="zakelijk-particulier">Zakelijk</h2>
+		</div></a><!--eind card zakelijk-->
+	
+      <a href="zakelijk/zakelijk-werkwijze.html"><!--begin card particulier-->
+		<div class="card image-particulier">
+          <h2 class="zakelijk-particulier">Particulier</h2>
+		</div></a><!--eind card particulier-->
+    </div><!--eind card-->
+  <!--eind card-->
+</main>
+<!-- einde content -->
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Footer" -->
+<footer>
+  <!--begin footer-->
+  <div class="group"><a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep WIT.png" width="385" height="82" alt="logo de vries en van weel"/></a>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="../index.html" class="active">Home</a></li>
+        <!-- <li><a href="pages/about.htm">Zakelijk</a></li>
+            <li><a href="pages/services.htm">Particulier</a></li>-->
+        <li><a href="#">Over ons</a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--<a href="#top" class="backToTop"><img src="img/icon-arrow.png" width="40" height="25" alt="Back to top"></a>-->
+  <div class="footer-tekst">
+    <address>
+      <h3>Zwanenburgerdijk 348c, 1161 NN Zwanenburg</h3>
+      </address>
+    <p>&#169; 2021 de Vries en van Weel.  – Alle rechten voorbehouden</p>
+  </div>
+</footer>
+<!--eind footer-->
+<!-- TemplateEndEditable --></div><!--einde container-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

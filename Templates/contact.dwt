@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Contact</title>
+<!-- TemplateEndEditable -->
+<link href="../css/css-reset.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script src="https://kit.fontawesome.com/11bd1e16d5.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet"> 
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<link href="../css/opmaak.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body id="top">
+<div id="container"><!-- TemplateBeginEditable name="Header" -->
+  <header class="group"> <a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep FC.png" width="568" height="120" alt="logo de vries en van weel"/></a>
+    <div class="topnav"> <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projecten</button>
+        <div class="dropdown-content"> <a href="../zakelijk/zakelijk-werkwijze.html">Zakelijk</a> <a href="../particulier/particulier-werkwijze.html">Particulier</a> </div>
+      </div>
+      <!--<div class="dropdown">
+          <button class="dropbtn">Particulier</button>
+          <div class="dropdown-content">
+            <a href="#">Werkwijze</a>  
+            <a href="#">Project voorbeelden</a>
+          </div>
+        </div> button uit-->
+      <a href="#about">Over ons</a> <a href="#contact"  class="active">Contact</a> </div>
+  </header>
+  <!--einde header-->
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Main" -->
+<main class="content">  <!-- start content -->
+  <div class="wrap">
+      <div class="contactgegevens">
+          <h1>de Vries &amp; van Weel Bouwgroep<br>
+          maakt verbouwen overzichtelijk.</h1>
+              <p>Tijdens elk proces zijn wij uw contactpersoon en verzorgen wij de bouwbegeleiding.
+              Geen stress voor u, een overzichtelijk traject en een bouwervaring waar je met plezier op terug kan kijken.</p>
+             <br>
+          <address>
+             <table height="90">
+                 <tbody>
+                   <tr>
+                     <td width="229">Rense de Vries</td>
+                     <td>06 453 240 15</td>
+					 <td width="160"><a href="https://www.linkedin.com/in/rense-de-vries-0627588/"><i class="fab fa-linkedin" style="font-size:24px;"></i></a></td>
+                   </tr>
+                   <tr>
+                     <td width="229">Dennis van Weel</td>
+                     <td width="160">06 348 620 84</td>
+					 <td><a href="https://www.linkedin.com/in/dennis-van-weel-68b6a579/"><i class="fab fa-linkedin" style="font-size:24px;"></i></a></td>
+                   </tr>
+                    
+                </tbody>
+             </table>
+         
+          <p>Zwanenburgerdijk 348c,<br>1161 NN Zwanenburg</p>
+          </address>
+        </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9740.897988568215!2d4.7385898!3d52.3844805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e52a430ff785%3A0x57532bc4ceec3f04!2sDe%20Vries%20%26%20Van%20Weel%20Bouwgroep!5e0!3m2!1snl!2snl!4v1618914196579!5m2!1snl!2snl" style="border:0;" allowfullscreen="" loading="eager"></iframe>
+    </div>
+ </main><!-- einde content -->
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Footer" -->
+<footer>
+  <!--begin footer-->
+  <div class="group"><a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep WIT.png" width="385" height="82" alt="logo de vries en van weel"/></a>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <!-- <li><a href="pages/about.htm">Zakelijk</a></li>
+            <li><a href="pages/services.htm">Particulier</a></li>-->
+        <li><a href="#">Over ons</a></li>
+        <li><a href="../pages/contact.htm" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--<a href="#top" class="backToTop"><img src="img/icon-arrow.png" width="40" height="25" alt="Back to top"></a>-->
+  <div class="footer-tekst">
+    <address>
+      <h3>Zwanenburgerdijk 348c, 1161 NN Zwanenburg</h3>
+      </address>
+    <p>&#169; 2021 de Vries en van Weel.  – Alle rechten voorbehouden</p>
+  </div>
+</footer>
+<!--eind footer-->
+<!-- TemplateEndEditable -->
+</div><!--einde container-->
+
+</body>
+</html>

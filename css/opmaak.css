@@ -1,0 +1,59 @@
+@charset "utf-8";
+h1{
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+    font-style: italic;
+    font-size: 2.3em;
+}
+h2{
+	font-family: 'DM Sans', sans-serif;
+	font-style: italic;
+    font-size: 1.3em;
+}
+.contactgegevens h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: #01225B;
+    border-bottom: 3px solid #CBBBA0;
+}
+.contactgegevens p{
+    margin: 25px 0px;
+    line-height: 1.2em;
+}
+.contactgegevens a{
+    color: #3B557C;
+   
+}
+.contactgegevens a:hover{
+	color: #CBBBA0;
+	
+}
+.werkwijze-zakelijk-particulier {
+	position: absolute;
+	top: 85px;
+	cursor: pointer;
+    width: 460px;
+    padding: 20px;
+    color: #000;
+    transition: 0.6s ease;
+    background-color: hsla(0,0%,100%,0.90);
+}
+.werkwijze-zakelijk-particulier:hover {
+    background-color: hsla(38,29%,71%,0.54);
+}
+td{
+	padding: 10px;
+}
+.kopH2{
+    font-family: 'DM Sans', sans-serif;
+     font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: #01225B;
+    border-bottom: 3px solid #CBBBA0;
+}

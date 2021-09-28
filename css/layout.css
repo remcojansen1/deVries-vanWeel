@@ -1,0 +1,249 @@
+@charset "utf-8";
+@import url("Slideshow.css");
+@import url("navigatie.css");
+
+body {
+    padding: 0px;
+	margin: 0px;
+	font-family: 'DM Sans', sans-serif;
+/*	font-family: 'Overpass', sans-serif ;
+*/	
+	font-size: 0.9rem;
+}
+header, main, nav, aside, article, footer, address{
+	box-sizing: border-box;
+	display: block;
+	}/*css reset*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container{
+	margin: 0 auto;
+}
+
+header{
+	position: relative;
+}
+header a img {
+    position: relative;
+    left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.flex-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	flex-wrap: wrap;
+
+}
+section{
+/*    border: 3px solid #fff;*/
+	margin: 0 25px;
+	padding: 50px;
+}
+section p{
+	margin-top: 10px
+}
+
+/*main*/
+
+
+.uitleg-project{
+	background-color: #FFFFFF;
+	width: 600px;
+	height: 275px;
+	margin: 2rem;
+	border-radius: 10px;
+	
+}
+
+article {
+	margin-bottom: 20px;
+	background-color: #3B557C;
+	display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;	
+}
+.article{
+    background-color: #FFF;
+    padding: 50px;
+    width: 1085px;
+    margin: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+	}
+article h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: #01225B;
+    border-bottom: 3px solid #CBBBA0;
+   }
+article p{
+    margin-top: 25px;
+    line-height: 1.5em;
+}
+article a{
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 700;
+	text-decoration: none;
+	padding: 15px 60px;
+	background-color: #CBBBA0;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+article a:hover{
+	color: #fff;
+	background-color: #3B557C;
+}
+
+.tekst{
+    padding: 20px;
+    column-count: 2;
+	column-gap: 60px;
+/*	column-rule: 2px solid #fff;*/  
+    text-align: justify;
+    color: #01225B;
+}
+.card-container{
+	position: relative;
+	background-color: #CBBBA0;
+	padding: 50px;
+	max-width: 100%;
+}
+.card-container p{
+	margin: 25px 15px
+}
+.card{
+    width: 500px;
+    height: 500px;
+    border: 3px solid #000;
+	margin: 2rem;
+	border-radius: 10px;
+}
+.card-container h2  {
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: 900;
+    line-height: 3em;
+    height: 100px;
+	color: #000;
+    }
+.card-container a{
+	text-decoration: none;
+}
+.image-zakelijk{
+	background-image: url("../img/VB-renovatie-woning_500x500.jpg");
+}
+.image-particulier{
+	background-image: url("../img/VB-particulier_500X500.jpg");
+}
+/*zakelijk-particulier*/
+ .zakelijk-particulier {
+	cursor: pointer;
+    width: 460px;
+    padding: 20px;
+    color: #000;
+    transition: 0.6s ease;
+    background-color: hsla(0,0%,100%,0.90);
+}
+/* On hover, add a black background color with a little bit see-through */
+.zakelijk-particulier:hover {
+    background-color: hsla(38,29%,71%,0.54);
+}
+/*contact*/
+.wrap{
+    display: flex;
+    flex-direction: row;
+    min-height: 625px;
+    background-color: #3B557C;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+	}
+.contactgegevens{
+    background-color: #FFF;
+    padding: 50px;
+    width: 600px;
+    height: 500px;
+    margin: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+	}
+	iframe{
+    background-color: #FFF;
+    margin: 25px;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+	}
+
+/*footer*/
+footer {
+    position: relative;
+    background-color: hsla(200,24%,68%,1.00);
+    padding: 25px;
+    width: 100%;
+	margin-top: 20px;
+}
+footer img{
+	float: left;
+}
+.footer-tekst{
+	text-align: center;
+}
+footer h3{
+	margin-bottom: 10px;
+}
+.footer-nav {
+    display: inline-block;
+	float: right;
+ 
+}
+.footer-nav a:hover  {
+    color: #000000;
+}
+.footer-nav a.active {
+    color: #3B557C;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 0px;
+}
+.footer-nav ul li a {
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 30px;
+    text-decoration: none; 
+}
+
+/*.backToTop {
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.backToTop img {
+    width: 40px;
+    position: relative;
+    bottom: -15px;
+}
+*/

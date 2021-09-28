@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.topnav {
+    float: right;
+    position: absolute;
+    right: 5%;
+    bottom: 1px;
+    z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #CBBBA0;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+    text-decoration: none;
+    font-size: 20px;
+    top: auto;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #CBBBA0;
+    color: #FFFFFF;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #3B557C;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button.active {
+    background-color: #3B557C;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #CBBBA0;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 37px;
+    font-size: 20px;
+    border: none;
+}
+.dropbtn-active {
+    background-color: #3B557C;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: hsla(0,0%,100%,0.95);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #3B557C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+
+.dropdown-content a:hover {
+    background-color: #3B557C;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    background-color: #CBBBA0;
+    color: hsla(0,0%,100%,1.00);
+}

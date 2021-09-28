@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Projecten zakelijk</title>
+<!-- TemplateEndEditable -->
+<link href="../css/css-reset.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet"> 
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body id="top">
+<div id="container"><!-- TemplateBeginEditable name="Header" -->
+  <header class="group"> <a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep FC.png" width="400" height="82" alt="logo de vries en van weel"/></a>
+      <div class="topnav"> 
+		  <a href="../index.html">Home</a>
+              <div class="dropdown">
+                <div class="dropbtn-active">Projecten</div>
+                <div class="dropdown-content"> 
+					<a href="zakelijk-werkwijze.html">Zakelijk</a> 
+					<a href="../particulier/particulier-werkwijze.html">Particulier</a> 
+				</div>
+        </div>
+          <a href="../over-ons/over-ons.html">Over ons</a> <a href="../contact/contact.html">Contact</a> 
+    </div>
+  </header>
+  <!--einde header-->
+<!-- TemplateEndEditable --><!-- Slideshow container -->
+
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Main" -->
+<main class="content"><!-- start content -->
+ <article class="group">
+    <div class="article">
+        <h1>Onze werkwijze</h1>
+            <p>Er komt nogal wat bij kijken en er zijn verschillende vakspecialisten bij betrokken. De Vries en van Weel Bouwgroep begeleid uw verbouwing vanaf de eerste calculatie tot de laatste afbouw.Tijdens elk proces zijn wij uw contactpersoon en verzorgen wij de bouwbegeleiding. Geen stress voor u, een overzichtelijk traject en een bouwervaring waar je met plezier op terug kan kijken.</p>
+            <p>Op een betrokken manier kunnen wij u ondersteunen, van het eerste idee tot en met de daadwerkelijke realisatie van uw project. Zoals het realiseren van een uit- of opbouw of verbouwingen van bijvoorbeeld van uw badkamer of bedrijfsruimte. Ook bieden wij all-round binnen- en buiten onderhoudswerkzaamheden aan voor uw woning of kantoorpand. </p>
+   </div>
+  </article><!-- einde article -->
+	
+<div class="card-container group flex-box"><!--begin card-->
+	<a href="zakelijk-project-voorbeelden.html">
+      <div class="card">
+      <div class="zakelijk-particulier">
+		 <p>Project titel:</p>
+		  <p>Project:</p>
+		  <p>Werkzaamheden:</p>
+        </div>
+      </div></a>
+	<a href="zakelijk-project-voorbeelden.html">
+      <div class="card">
+      <div class="zakelijk-particulier">
+		 <p>Project titel:</p>
+		  <p>Project:</p>
+		  <p>Werkzaamheden:</p>
+        </div>
+      </div></a>
+	<a href="zakelijk-project-voorbeelden.html">
+      <div class="card">
+      <div class="zakelijk-particulier">
+		 <p>Project titel:</p>
+		  <p>Project:</p>
+		  <p>Werkzaamheden:</p>
+        </div>
+      </div></a>
+	<a href="zakelijk-project-voorbeelden.html">
+      <div class="card">
+      <div class="zakelijk-particulier">
+		 <p>Project titel:</p>
+		  <p>Project:</p>
+		  <p>Werkzaamheden:</p>
+        </div>
+      </div></a>
+</div><!--eind card-->
+</main><!-- einde content -->
+<!-- einde content -->
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Footer" -->
+<footer>
+  <!--begin footer-->
+  <div class="group"><a href="../index.html"><img src="../img/Logo De Vries en Van Weel Bouwgroep WIT.png" width="385" height="82" alt="logo de vries en van weel"/></a>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <!-- <li><a href="pages/about.htm">Zakelijk</a></li>
+            <li><a href="pages/services.htm">Particulier</a></li>-->
+        <li><a href="../over-ons/over-ons.html">Over ons</a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--<a href="#top" class="backToTop"><img src="img/icon-arrow.png" width="40" height="25" alt="Back to top"></a>-->
+  <div class="footer-tekst">
+    <address>
+      <h3>Zwanenburgerdijk 348c, 1161 NN Zwanenburg</h3>
+      </address>
+    <p>&#169; 2021 de Vries en van Weel.  – Alle rechten voorbehouden</p>
+  </div>
+</footer>
+<!--eind footer-->
+<!-- TemplateEndEditable --></div><!--einde container-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
